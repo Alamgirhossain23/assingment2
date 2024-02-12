@@ -1,0 +1,309 @@
+.nav{
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    text-align: center;
+}
+.tomato{
+    display: flex;  
+      text-align: center;
+}
+.bar{
+    display: flex;
+    text-align: center;
+    padding-top: 4px;
+}
+.same{
+    color: red;
+}
+*{
+    padding-left: 20px;
+    padding-right: 20px;
+}*
+/*nav finish*/
+.main{
+    margin-bottom: 200px;
+    align-items:center;
+    text-align:center;
+    height: 400px;
+    width: auto;
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png")
+
+}
+    .common{
+        background-color: red;
+        font-size: medium;
+        color: white;
+        height: 50px;
+        width: 150px;
+    }
+    .middle{
+        border-radius: 2px solid tomato;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .travel{
+        text-align: center;
+    }
+    .travel-img{
+    display: flex;
+    }
+    .another{
+        display: flex;
+    }
+    .two-img{
+        display: flex;
+    }
+    .next{
+        align-items: center;
+        display:grid ;
+        grid-template-columns: auto;
+    }
+    .hotel-1{
+        background-color: antiquewhite;
+        height: 300px;
+        width: 50%;
+  hotel-2 {
+        background-color: beige;
+        height: 300px;
+        width: 50%;
+    }
+ .hotel-3{
+        background-color: bisque;
+        height: 300px;
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .location{
+        display: flex;
+        gap: 4px;
+    }
+    .discount{
+        text-align: center;
+    }
+    .deals{
+        height: 400px;
+        width: auto;
+        background-image: url(../Images/Group\ 39.png);
+    }
+    .deal{
+        border-radius: 2px solid blue;
+        background-color: azure;
+        text-align: right;
+        height: 200px;
+        width: 200px;
+
+
+    }
+    .time-travel{
+         height: 400px;
+        width: auto;
+        background-image: url(../Images/Group\ 40.png);
+
+    }
+    t-travel{
+        border-radius: 2px solid blue;
+        background-color: azure;
+        text-align: right;
+        height: 200px;
+        width: 200px;
+
+    }
+    m-travel{
+        height: 400px;
+        width: auto;
+        background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+
+    }
+    .m{
+        border-radius: 2px solid blue;
+        background-color: azure;
+        text-align: right;
+        height: 200px;
+        width: 200px;
+
+    }
+    .natural{
+        display: flex;
+    }
+
+
+    .newslater{
+        border: 400px;
+        background-color: bisque;
+        height: 400px;
+        width: 50%;
+        grid-area: 4px;
+        text-align: center;
+    }
+    .com{
+        color:red ;
+        background-color: brown;
+        width: 20%;
+        height:-80%;
+    }
+    .secend-last{
+        display: flex;
+    }
+    .future{
+        text-align: center;
+
+    }
+    @media screen and (max width 575px){
+        .nav{
+            width: 100%;
+            gap: 2px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .tomato{ 
+              text-align: center;
+              display: flex;
+        }
+        .bar{
+            display: flex;
+            text-align: center;
+            padding-top: 4px;
+        }
+        .same{
+            color: red;
+        }
+        *{
+            padding-left: 5px;
+            padding-right: 5px;
+        }*
+        /*nav finish*/
+        .main{
+            margin-bottom: 200px;
+            align-items:center;
+            text-align:center;
+            height: 400px;
+            width: auto;
+            background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png")
+        
+        }
+            .common{
+                background-color: red;
+                font-size: medium;
+                color: white;
+                height: 50px;
+                width: 150px;
+            }
+            .middle{
+                border-radius: 200px salmon;
+                display: flex;
+                margin-top: 30px;
+            }
+            .travel{
+                text-align: center;
+            }
+            .travel-img{
+            display: flex;
+            }
+            .another{
+                display: flex;
+            }
+            .two-img{
+                display: flex;
+            }
+            .next{
+                align-items: center;
+            }
+            .hotel-1{
+                background-color: antiquewhite;
+                height: 300px;
+                width: 50%;}
+          hotel-2 {
+                background-color: beige;
+                height: 300px;
+                width: 50%;
+            }
+         .hotel-3{
+                background-color: bisque;
+                height: 300px;
+                width: 50%;
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            .location{
+                display: flex;
+                gap: 4px;
+            }
+            .discount{
+                text-align: center;
+            }
+            .deals{
+                height: 400px;
+                width: auto;
+                background-image: url(../Images/Group\ 39.png);
+            }
+            .deal{
+                border-radius: 2px solid blue;
+                background-color: azure;
+                text-align: right;
+                height: 200px;
+                width: 200px;
+        
+        
+            }
+            .time-travel{
+                 height: 400px;
+                width: auto;
+                background-image: url(../Images/Group\ 40.png);
+        
+            }
+            t-travel{
+                border-radius: 2px solid blue;
+                background-color: azure;
+                text-align: right;
+                height: 200px;
+                width: 200px;
+        
+            }
+            m-travel{
+                height: 400px;
+                width: auto;
+                background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+        
+            }
+            .m{
+                border-radius: 2px solid blue;
+                background-color: azure;
+                text-align: right;
+                height: 200px;
+                width: 200px;
+        
+            }
+            .natural{
+                display: flex;
+            }
+        
+        
+            .newslater{
+                border: 400px;
+                background-color: bisque;
+                height: 400px;
+                width: 50%;
+                grid-area: 4px;
+                text-align: center;
+            }
+            .com{
+                color:red ;
+                background-color: brown;
+                width: 20%;
+                height:-80%;
+            }
+            .secend-last{
+                display: flex;
+            }
+            .future{
+                text-align: center;
+        
+            }
+            
+        
+    }
+    
